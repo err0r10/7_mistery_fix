@@ -13,7 +13,14 @@ from quadratic_equation import get_roots
 # Как запустить
 
 Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
-Для запуска unit-тестов выполните команду из командной строки
+
+Пример:
+```bash
+from quadratic_equation import get_roots
+get_roots(1,2,3)
+```
+
+Для запуска unit-тестов:
 ```bash
 python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
 ```
