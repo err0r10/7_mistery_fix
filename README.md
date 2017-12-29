@@ -6,7 +6,7 @@
 # Как использовать
 
 Импортируйте функцию *get_roots* из модуля *quadratic_equation* в свой проект:
-```bash
+```python
 from quadratic_equation import get_roots
 ```
 
@@ -15,7 +15,7 @@ from quadratic_equation import get_roots
 Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
 
 Пример:
-```bash
+```python
 from quadratic_equation import get_roots
 get_roots(1,2,3)
 ```
